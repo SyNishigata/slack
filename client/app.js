@@ -9,3 +9,7 @@ Template.messages.helpers({
         { text: "Hello" }
     ]
 });
+
+Accounts.ui.config({
+    passwordSignupFields: 'USERNAME_AND_EMAIL'
+})
